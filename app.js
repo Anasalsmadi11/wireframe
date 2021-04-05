@@ -36,7 +36,7 @@ for(i=0; i<userUnput; i++){
   document.write('<img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsg4bZLKo5TNLuqXbq39z2ACjglcNfzVwpNw&usqp=CAU">');
 }*/
 
-/*var carName= prompt("please enter the car type");
+var carName= prompt("please enter the car type");
 while(carName !=='mercedes' && carName !=='BMW'){
   carName= prompt('please select mercedes or BMW');
 };
@@ -49,3 +49,17 @@ for (i=0; i<userInput; i++){
     document.write('<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDl2mcnYk_BTegnPyRYAQCctAOQ4yynqbQkQ&usqp=CAU">')
   }
 };
+
+function printName(){
+  console.log('welcome')
+};
+function printConsoleNamber( limit1,limit2){
+  for(var r=limit1; r<limit2;r++){
+    console.log(r);
+  }
+}
+
+printName();
+printConsoleNamber(1,10);
+printConsoleNamber(50,100);
+printConsoleNamber(200,300);
