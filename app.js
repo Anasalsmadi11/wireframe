@@ -36,7 +36,7 @@ for(i=0; i<userUnput; i++){
   document.write('<img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsg4bZLKo5TNLuqXbq39z2ACjglcNfzVwpNw&usqp=CAU">');
 }*/
 
-var carName= prompt("please enter the car type");
+/*var carName= prompt("please enter the car type");
 while(carName !=='mercedes' && carName !=='BMW'){
   carName= prompt('please select mercedes or BMW');
 };

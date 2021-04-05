@@ -1,0 +1,66 @@
+/*section {
+    background-color: lightgray;
+    background-color:#005541;
+    background-color: rgba(30,50,60,.45);
+}*/
+
+body{
+  width: 950px;
+  margin: auto;
+}
+  
+  section {
+    /* background-color: yellow; */
+    /* background-color: #000000; */
+    /* background-color: rgb(100, 31, 70); */
+    /* background-color: rgba(0, 68, 255, 0.5); */
+  }
+   
+  /*.Logo{
+    
+    width:150px ;
+
+  }*/
+
+  nav img{
+    width: 90px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  nav ul{
+    float: right;
+  }
+
+
+   #heroImage {
+     width: 100%;
+   }
+    table{
+     float: right;
+     border-collapse: collapse;
+   }
+   table td{
+     border:1px solid; lightseagreen;
+   }
+
+  section article{
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+  form *{
+    width: 100%;
+  }
+  footer{
+    text-align: center;
+    background-color: rgb(1, 7, 12);
+    color: lightyellow;
+  }
+  footer nav a{
+    color: linen;
+  }
